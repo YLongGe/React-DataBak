@@ -1,0 +1,17 @@
+-- 安装 npm 淘宝镜像 cnmp
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+
+-- 查看 npm 源
+npm config get registry
+
+-- 修改 npm 源 
+npm config set registry https://registry.npm.taobao.org
+
+-- 使用 cnpm 安装 create-react-app 
+cnpm install -g create-react-app
+
+-- 创建 react 项目
+npx create-react-app my-app  或者  create-react-app my-app
+
+-- 运行 react
+先cd到 my-app 然后执行： cnpm start
